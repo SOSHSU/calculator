@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
     <script src="calculate.js"></script>
+    <div class = "grid">
+        <div class = "item1"></div>
+        <div class = "item2">
+            <input class = "number" id = "number1" type="text" placeholder="Number  1">
+        </div>
+        <div class = "item3">
+            <input class = "number" id = "number2" type="text" placeholder="Number  2">
+        </div>
+        <div class = "item4">
+            <button class = "button" onclick = "plusNum()">+</button>
+        </div>
+        <div class = "item5">
+            <button class = "button" onclick = "minusNum()">-</button>
+        </div>
+        <div class = "item6">
+            <button class = "button" onclick = "productNum()">*</button>
+        </div>
+        <div class = "item7">
+            <button class = "button" onclick = "divideNum()">/</button>
+        </div>
+    </div>
 </body>
 </html>
